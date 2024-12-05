@@ -32,17 +32,17 @@ nav > div > a{
 main{
     margin:auto;
     width: 80vw;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
     padding: 10px;
     background-color: white;
-    box-shadow: 1px 0px 2px rgb(0, 0, 0);
+    box-shadow: 2px 1px 2px rgb(0, 0, 0);
 }
 #escola{
     display: block;
     margin: auto;
     padding-top: 15px;
     padding-bottom: 15px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 footer{
     background-color: #007369;
@@ -54,4 +54,9 @@ p{
     text-indent: 2%;
     line-height: 1.5em;
     padding: 10px;
+}
+#maintext{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
 }
