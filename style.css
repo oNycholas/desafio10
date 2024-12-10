@@ -89,3 +89,15 @@ section{
     padding: 10px;
     margin-bottom:10px ;
 }
+#mais > p{
+    padding-left: 0;
+    text-indent: 0; 
+}
+#mais > a{
+    color: black;
+
+}
+#whats{
+    text-decoration: underline;
+    padding-top: 0; 
+}
