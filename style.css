@@ -57,12 +57,12 @@ footer{
     color: white;
 
 }
-article > div > p{
+article > div > p, section > div > p{
     text-indent: 2%;
     line-height: 1.5em;
     padding: 10px;
 }
-#projetos > p strong{
+#projetos > p strong, #cursos > section > div > p strong{
     background-color: #02a675e5;
     color: white;
 }
@@ -89,10 +89,13 @@ section{
     padding: 10px;
     margin-bottom:10px ;
 }
-#mais > p{
-    padding-left: 0;
+#mais > p, .mrc{
     text-indent: 0; 
 }
+#mais > p{
+    padding-left: 0;
+}
+
 #mais > a{
     color: black;
 
