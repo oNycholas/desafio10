@@ -31,6 +31,9 @@ nav > div > a{
     text-decoration: none;
     color: white;
 }
+a.externo::after{
+    content:'\1F517';
+}
 main{
     margin:auto;
     width: 80vw;
@@ -38,13 +41,15 @@ main{
     padding: 10px;
     background-color: white;
     box-shadow: 2px 1px 2px rgb(0, 0, 0);
+    min-width: 300px;
+    max-width: 1000px;
 }
-#escola{
+img{
     display: block;
-    margin: auto;
     padding-top: 15px;
     padding-bottom: 15px;
     border-radius: 10px;
+    margin:auto;
 }
 footer{
     background-color: #007369;
@@ -52,13 +57,35 @@ footer{
     color: white;
 
 }
-p{
+article > div > p{
     text-indent: 2%;
     line-height: 1.5em;
     padding: 10px;
 }
+#projetos > p strong{
+    background-color: #02a675e5;
+    color: white;
+}
+#projetos > p > a{
+    background-color: #008c72e8;
+    color: rgba(255, 255, 255, 0.925);
+    text-decoration: underline;
+    text-decoration-color: black;
+    font-weight: bold;
+}
 #maintext{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5em;
     padding: 5px;
+}
+ul{
+    list-style-position: inside;
+}
+section{
+    background-color:beige;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    padding: 10px;
+    margin-bottom:10px ;
 }
