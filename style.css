@@ -62,7 +62,7 @@ article > div > p, section > div > p{
     line-height: 1.5em;
     padding: 10px;
 }
-#projetos > p strong, #cursos > section > div > p strong{
+#projetos > p strong, #cursos > section > div > p strong, #inicio > div > p strong{
     background-color: #02a675e5;
     color: white;
 }
@@ -94,13 +94,22 @@ section{
 }
 #mais > p{
     padding-left: 0;
+    padding-bottom: 0;
 }
 
-#mais > a{
+#mais ul > li > a{
     color: black;
-
+    padding: 0;
 }
 #whats{
     text-decoration: underline;
     padding-top: 0; 
+}
+#caxa{
+    background-color: #5dc4a570;
+    box-shadow: 2px 2px 5px black;
+
+}
+nav > div > a:hover{
+    background-color: #02A676;
 }
