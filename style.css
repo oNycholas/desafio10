@@ -40,7 +40,7 @@ main{
     border: 1px solid rgb(255, 255, 255);
     padding: 10px;
     background-color: white;
-    box-shadow: 2px 1px 2px rgb(0, 0, 0);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.534);
     min-width: 300px;
     max-width: 1000px;
 }
@@ -62,16 +62,27 @@ article > div > p, section > div > p{
     line-height: 1.5em;
     padding: 10px;
 }
-#projetos > p strong, #cursos > section > div > p strong, #inicio > div > p strong{
+#projetos > p strong, #cursos section> div > p strong, #inicio > p strong, #matriculas > p strong{
     background-color: #02a675e5;
     color: white;
 }
-#projetos > p > a{
+#projetos > p > a, #inicio > p > a, #matriculas > a{
     background-color: #008c72e8;
     color: rgba(255, 255, 255, 0.925);
     text-decoration: underline;
     text-decoration-color: black;
     font-weight: bold;
+}
+
+#matriculas > a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    width: 25vw;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.473);
 }
 #maintext{
     text-align: center;
@@ -85,7 +96,7 @@ ul{
 section{
     background-color:beige;
     border-radius: 10px;
-    box-shadow: 2px 2px 5px black;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.438);
     padding: 10px;
     margin-bottom:10px ;
 }
@@ -107,9 +118,20 @@ section{
 }
 #caxa{
     background-color: #5dc4a570;
-    box-shadow: 2px 2px 5px black;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.514);
 
 }
 nav > div > a:hover{
     background-color: #02A676;
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+}
+th,td{
+    border: 1px solid black;
+    padding: 10px;
+}
+td{
+    text-align: center;
 }
