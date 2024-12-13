@@ -4,21 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/header&nav.css">
+    <link rel="stylesheet" href="css/main&footer.css">
+    <link rel="stylesheet" href="css/section&article.css">
     <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
     <title>Desafio 10</title>
 </head>
 
 <body>
     <header>
-        <div>
+        <div class = "HeadTitulo">
             <h1>EEEP Maria Violeta Arraes</h1>
         </div>
-        <div>
+        <div class = "HeadSubtitulo">
             <h2>Desde 2012</h2>
         </div>
    </header>
    <nav>
-    <div>
+    <div class = "Navlinks">
         <a href="#">
             <strong>Início</strong>
         </a>
@@ -35,10 +38,10 @@
    </nav>
     <main>
        <article>
-           <div>
-                <h1 id="maintext">Proposta Pedagógica</h1>
+           <div class = "maintext">
+                <h1>Proposta Pedagógica</h1>
            </div>
-           <div id="inicio">
+           <div class = "artigo">
                 <p>
                     O currículo escolar é fundamental para a prática pedagógica, pois indica os conteúdos, atividades e competências a serem desenvolvidas. Ele organiza o conhecimento escolar, estabelecendo temas, abordagens de ensino e estratégias de aprendizagem.
                 </p>
@@ -48,10 +51,10 @@
                 <p>
                     A escola realizará encontros semanais para planejar temas comuns, com apoio do <a href="https://pnld.nees.ufal.br" target = "_blank" class = "externo" >PNLD</a> e outros materiais. O currículo do Ensino Médio abrange <em>Língua Portuguesa, Matemática, Arte, Educação Física, Filosofia, Sociologia e História do Brasil, </em>além de<em> Língua Inglesa <em>e possível</em> Língua Espanhola.</em>
                 </p>
-                    <div>
+                    <div class = "imgResponsiva">
                         <picture>
-                            <source media="(max-width:300px )" srcset="imagens/violeta_200.jpg">
-                            <source media="(max-width: 630px )" srcset="imagens/violeta_400.jpg">
+                            <source media="(max-width:300px )" srcset="imagens/1b-informatica-300.jpeg">
+                            <source media="(max-width: 630px )" srcset="imagens/1b-informatica-400.jpeg">
                             <img id = "escola" src="imagens/1b-informatica-500.jpeg" alt="Violeta Arraes">
                         </picture>
                     </div>
@@ -66,38 +69,39 @@
                 </p>
            </div>
        </article>
-       <section id="caxa">
-           <aside>
-            <div>
-                <h1  id = "maintext">
-                    Entre em Contato!
-                </h1>
-            </div>
-            <div  id = "mais">
-                <p
-                >Caso deseje entrar em contato ou manter-se atualizado sobre o violeta, ache-nos nas seguintes redes sociais!
-
-                </p>
-                <ul>
-                    <li>
-                        <a href="https://www.instagram.com/eeepvioleta/" target="_blank">Instagram</a>
-                    </li>
-                        <li>
-                            <a href="https://www.instagram.com/gremioneva_/" target="_blank">Instagram do Grêmio Estudantil</a>
-                        </li>
-                        <li>
-                            <a href="https://eeepmariavioleta.wixsite.com/eeepmariavioleta" target="_blank">Site de referência</a>
-                        </li>
-                        <li>
-                            <a href="https://wa.me/558888134680" target="_blank">Whatsapp</a>
-                        </li>
-                </ul>
-            </div>
-           </aside>
-        </section>
+        <div class = "aside">
+            <aside style="background-color: #5dc4a570;">
+                <div class = "maintext">
+                    <h1>
+                        Entre em Contato!
+                    </h1>
+                </div>
+                <div  id = "mais">
+                    <p>
+                        Caso deseje entrar em contato ou manter-se atualizado sobre o violeta, ache-nos nas seguintes redes sociais!
+                    </p>
+                    <div class = "lista">
+                        <ul>
+                            <li>
+                                <a href="https://www.instagram.com/eeepvioleta/" target="_blank">Instagram</a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/gremioneva_/" target="_blank">Instagram do Grêmio Estudantil</a>
+                            </li>
+                            <li>
+                                <a href="https://eeepmariavioleta.wixsite.com/eeepmariavioleta" target="_blank">Site de referência</a>
+                            </li>
+                            <li>
+                                <a href="https://wa.me/558888134680" target="_blank">Whatsapp</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+        </div>
     </main>
     <footer>
-        <div>
+        <div class = "footer">
             <p>Site feito por Nycholas Alves Aguiar e Yuri Lohan Lira Lima</p>
         </div>
     </footer>

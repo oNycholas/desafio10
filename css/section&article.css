@@ -1,0 +1,37 @@
+section, aside{
+    background-color:beige;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.438);
+    padding: 10px;
+    margin-bottom:10px ;
+}
+img{
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    margin:auto;
+}
+.artigo > p strong{
+    background-color: #02a675;
+    color: rgb(255, 251, 251);
+    padding: 1px;
+}
+.artigo > p > a, .artigo > a{
+    background-color: #008c72e8;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    text-decoration-color: black;
+    font-weight: bold;
+    padding: 1px;
+}
+.artigo > a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    width: 27vw;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.473);
+}

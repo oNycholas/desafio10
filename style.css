@@ -12,93 +12,16 @@
     --cor4:(#008C72);
     --cor5:(#02A676);
 }
-body{
-    background-image: linear-gradient(#008c72dc, #007369e1 );
-}
-header{
-    background-image: linear-gradient(#02A676, #008C72);
-    height: 100px;
-    color: white;
-    text-align: center;
-}
-nav{
-    background-color:#008C72;
-    height: 30px;
-    text-align: center;
-}
-nav > div > a{
-    padding: 10px;
-    text-decoration: none;
-    color: white;
-}
 a.externo::after{
     content:'\1F517';
-}
-main{
-    margin:auto;
-    width: 80vw;
-    border: 1px solid rgb(255, 255, 255);
-    padding: 10px;
-    background-color: white;
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.534);
-    min-width: 300px;
-    max-width: 1000px;
-}
-img{
-    display: block;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-radius: 10px;
-    margin:auto;
-}
-footer{
-    background-color: #007369;
-    text-align: center;
-    color: white;
-
 }
 article > div > p, section > div > p{
     text-indent: 2%;
     line-height: 1.5em;
     padding: 10px;
 }
-#projetos > p strong, #cursos section> div > p strong, #inicio > p strong, #matriculas > p strong{
-    background-color: #02a675e5;
-    color: white;
-}
-#projetos > p > a, #inicio > p > a, #matriculas > a{
-    background-color: #008c72e8;
-    color: rgba(255, 255, 255, 0.925);
-    text-decoration: underline;
-    text-decoration-color: black;
-    font-weight: bold;
-}
-
-#matriculas > a{
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    margin: auto;
-    width: 25vw;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.473);
-}
-#maintext{
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2.5em;
-    padding: 5px;
-}
 ul{
     list-style-position: inside;
-}
-section{
-    background-color:beige;
-    border-radius: 10px;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.438);
-    padding: 10px;
-    margin-bottom:10px ;
 }
 #mais > p, .mrc{
     text-indent: 0; 
@@ -116,22 +39,6 @@ section{
     text-decoration: underline;
     padding-top: 0; 
 }
-#caxa{
-    background-color: #5dc4a570;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.514);
-
-}
-nav > div > a:hover{
-    background-color: #02A676;
-}
-table{
-    border-collapse: collapse;
-    margin: auto;
-}
-th,td{
-    border: 1px solid black;
-    padding: 10px;
-}
-td{
-    text-align: center;
+#cursos{
+    text-decoration: underline;
 }
