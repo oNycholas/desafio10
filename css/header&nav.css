@@ -20,10 +20,12 @@ nav{
     top: 0;
 }
 nav > .Navlinks > a{
-    padding: 10px;
+    padding: 7px;
     text-decoration: none;
     color: white;
-    font-size: 1.3em;
+}
+.Navlinks{
+    font-size: 1.4em;
 }
 nav > .Navlinks > a:hover{
     background-color: #02A676;
