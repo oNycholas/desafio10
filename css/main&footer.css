@@ -1,0 +1,26 @@
+main{
+    margin:auto;
+    width: 80vw;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.534);
+    min-width: 300px;
+    max-width: 1000px;
+}
+.maintext{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    padding: 5px;
+}
+#MatriculasSub{
+    font-size: 1em;
+}
+footer{
+    background-color: #007369;
+    text-align: center;
+    color: white;
+    padding: 3px;
+
+}
