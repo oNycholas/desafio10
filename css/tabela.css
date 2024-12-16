@@ -7,10 +7,10 @@ th,td{
     padding: 10px;
 }
 .tabelaTítulo{
-    background-color: gray;
+    background-color: #008C72;
 }
 #linha2{
-    background-color: rgba(128, 128, 128, 0.74);
+    background-color: #007369e1;
 }
 td{
     text-align: center;

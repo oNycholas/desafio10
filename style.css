@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Uchen&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maitree:wght@200;300;400;500;600;700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&family=Uchen&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
@@ -10,7 +10,6 @@
 *{
     padding: 0%;
     margin: 0%;
-    font-family: Unna, sans-serif
 }
 :root{
     --cor1:(#003840);
@@ -18,6 +17,22 @@
     --cor3:(#007369);
     --cor4:(#008C72);
     --cor5:(#02A676);
+}
+h1{
+    font-family: Maitree, 'Times New Roman', Times, serif;
+}
+h2{
+    font-family: Unna, Times, serif;
+}
+.Subtitulo > h2{
+    font-size: 1.5em;
+}
+.artigo > h2{
+    font-size: 2em;
+    padding: 10px;
+}
+.artigo > p{
+    font-family: Helvetica, Futura, Arial, sans-serif ;
 }
 a.externo::after{
     content:'\1F517';
@@ -30,6 +45,9 @@ article > div > p, section > div > p{
 ul{
     list-style-position: inside;
 }
+li{
+    padding: 2px;
+}
 #mais > p, .mrc{
     text-indent: 0; 
 }
@@ -38,15 +56,15 @@ ul{
     padding-bottom: 0;
 }
 
-#mais ul > li > a{
+#mais > .lista > ul > li > a{
     color: black;
     padding: 0;
+}
+#mais > .lista > ul > li > a:hover{
+    color: #02A676;
 }
 #whats{
     text-decoration: underline;
     padding-top: 0; 
-}
-#cursos{
-    text-decoration: underline;
 }
 

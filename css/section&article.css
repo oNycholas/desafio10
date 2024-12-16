@@ -3,7 +3,7 @@ section, aside{
     border-radius: 10px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.438);
     padding: 10px;
-    margin-bottom:10px ;
+    margin-bottom:10px 
 }
 img{
     display: block;
@@ -18,12 +18,20 @@ img{
     padding: 1px;
 }
 .artigo > p > a, .artigo > a{
-    background-color: #008c72e8;
-    color: rgb(255, 255, 255);
+    color: #008c72e8;
     text-decoration: underline;
     text-decoration-color: black;
     font-weight: bold;
     padding: 1px;
+}
+.artigo > p > a:hover, .artigo > a:hover{
+    background-color: #008c72e8;
+    color: rgb(255, 255, 255);
+    transition: 0.2s;
+}
+#edital{
+    background-color: #008c72e8;
+    color: white;
 }
 .artigo > a{
     display: block;
