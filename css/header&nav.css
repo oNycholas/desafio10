@@ -1,0 +1,32 @@
+body{
+    background-image: linear-gradient(#008c72dc, #007369e1 );
+}
+header{
+    background-image: linear-gradient(#02A676, #008C72);
+    height: 100px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+.HeadTitulo,.HeadSubtitulo{
+    margin-top:10px ;
+}
+nav{
+    background-color:#008C72;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    position: sticky;
+    top: 0;
+}
+nav > .Navlinks > a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+}
+nav > .Navlinks > a:hover{
+    background-color: #02A676;
+    padding: 10px;
+    transition: 0.3s;
+}

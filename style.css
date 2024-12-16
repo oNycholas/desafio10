@@ -1,9 +1,15 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Maitree:wght@200;300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&family=Uchen&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
 *{
     padding: 0%;
     margin: 0%;
-    font-family: Arial, Helvetica, sans-serif;
 }
 :root{
     --cor1:(#003840);
@@ -12,80 +18,53 @@
     --cor4:(#008C72);
     --cor5:(#02A676);
 }
-body{
-    background-image: linear-gradient(#008c72dc, #007369e1 );
+h1{
+    font-family: Maitree, 'Times New Roman', Times, serif;
 }
-header{
-    background-image: linear-gradient(#02A676, #008C72);
-    height: 100px;
-    color: white;
-    text-align: center;
+h2{
+    font-family: Unna, Times, serif;
 }
-nav{
-    background-color:#008C72;
-    height: 30px;
-    text-align: center;
+.Subtitulo > h2{
+    font-size: 1.5em;
 }
-nav > div > a{
+.artigo > h2{
+    font-size: 2em;
     padding: 10px;
-    text-decoration: none;
-    color: white;
+}
+.artigo > p{
+    font-family: Helvetica, Futura, Arial, sans-serif ;
 }
 a.externo::after{
     content:'\1F517';
 }
-main{
-    margin:auto;
-    width: 80vw;
-    border: 1px solid rgb(255, 255, 255);
-    padding: 10px;
-    background-color: white;
-    box-shadow: 2px 1px 2px rgb(0, 0, 0);
-    min-width: 300px;
-    max-width: 1000px;
-}
-img{
-    display: block;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-radius: 10px;
-    margin:auto;
-}
-footer{
-    background-color: #007369;
-    text-align: center;
-    color: white;
-
-}
-article > div > p{
+article > div > p, section > div > p{
     text-indent: 2%;
     line-height: 1.5em;
     padding: 10px;
 }
-#projetos > p strong{
-    background-color: #02a675e5;
-    color: white;
-}
-#projetos > p > a{
-    background-color: #008c72e8;
-    color: rgba(255, 255, 255, 0.925);
-    text-decoration: underline;
-    text-decoration-color: black;
-    font-weight: bold;
-}
-#maintext{
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2.5em;
-    padding: 5px;
-}
 ul{
     list-style-position: inside;
 }
-section{
-    background-color:beige;
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px black;
-    padding: 10px;
-    margin-bottom:10px ;
+li{
+    padding: 2px;
 }
+#mais > p, .mrc{
+    text-indent: 0; 
+}
+#mais > p{
+    padding-left: 0;
+    padding-bottom: 0;
+}
+
+#mais > .lista > ul > li > a{
+    color: black;
+    padding: 0;
+}
+#mais > .lista > ul > li > a:hover{
+    color: #02A676;
+}
+#whats{
+    text-decoration: underline;
+    padding-top: 0; 
+}
+
